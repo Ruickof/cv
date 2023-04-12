@@ -1,0 +1,173 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.butonrenk {
+  background-color: #000;
+}
+.butonrenk:hover {
+  background-color: grey;
+}
+.py-3 {
+  background-color: #000;
+  color: white;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* NAVBAR */
+.navbar {
+  padding-bottom: 5rem;
+  color: lightcoral;
+}
+.nav-item {
+  color: white;
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  color: white;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  color: white;
+  font-weight: bold;
+}
+/* NAVBAR */
+
+/* PHONE */
+
+#tel {
+  width: 20%;
+  transform: rotate(24deg);
+  position: absolute;
+  right: 22%;
+}
+@media (max-width: 1035px) {
+  #title{
+    text-align: center;
+  }
+  #tel {
+    width: 50%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* BUTTONS */
+.dwn-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+
+  background-color: white;
+  position: relative;
+}
+.features-box {
+  padding: 5%;
+}
+.h3features {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.pfeaturesp {
+  color: #8f8f8f;
+}
+.fa-4x {
+  color: #ef8172;
+}
+.fa-4x:hover {
+  color: #ff4c68;
+}
+/* TESTİS  */
+#testimonials {
+  background-color: #ef8172;
+  padding: 7% 15%;
+
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 200%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+/* PRESSS */
+
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 50px;
+}
+.press-logo {
+  width: 15%;
+  padding: 20px 20px;
+}
+/* pricing */
+#pricing {
+  padding-top: 7%;
+}
+
+/* cta */
+#cta {
+  background-color: #ff4c68;
+
+  color: white;
+  padding-top: 7%;
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+}
+.h3cta {
+  padding-top: 20px;
+}
+/* footer */
+#footer {
+  background-color: #fff;
+
+  color: white;
+  padding: 5%;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.minisembol {
+  padding: 2%;
+  color: black;
+}
+.minisembol:hover {
+  color: #ff4c68;
+}
