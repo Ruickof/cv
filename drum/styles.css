@@ -16,38 +16,44 @@ footer {
   font-family: sans-serif;
 }
 
-.w {
+.q {
  background-image:url(images/tom1.png);
  padding-bottom: 9rem;
 }
 
-.a {
+.w {
   background-image:url(images/tom2.png);
   padding-bottom: 9rem;
 }
 
-.s {
+.e {
   background-image:url(images/tom3.png);
   padding-bottom: 9rem;
 }
 
-.d {
+.r {
   background-image:url(images/tom4.png);
   padding-bottom: 9rem;
 }
 
-.j {
+.t {
   background-image:url(images/crash.png);
   padding-bottom: 9rem;
 }
 
-.k {
+.y {
   background-image:url(images/kick.png);
   padding-bottom: 9rem;
 }
 
-.l {
+.u {
   background-image:url(images/snare.png);
+  padding-bottom: 9rem;
+}
+
+.x {
+  background-image:url(images/rick.png);
+  
   padding-bottom: 9rem;
 }
 
@@ -80,7 +86,7 @@ footer {
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
-  width: 150px;
+  width: 140px;
   height: 150px;
   text-align: center;
   margin: 10px;
