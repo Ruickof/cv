@@ -1,0 +1,204 @@
+/* GENEL */
+/* div {
+  border: 2px solid yellow;
+} */
+body {
+ 
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+/* NAVBAR */
+.container-fluid {
+  min-height: 80px;
+  
+}
+
+@media (min-width: 1256px) {
+  .navbar-brand {
+    margin-left: 60px;
+  }
+  .navbar-nav {
+    margin-right: 60px;
+  }
+}
+.navbar-brand {
+  padding: 0;
+}
+.dropdown-menu img {
+  display: block;
+  margin: 0 auto; 
+}
+
+.nav-item {
+  margin: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* NAVBAR SON */
+
+/* CROUSEL */
+.carousel-caption {
+  position: absolute;
+  top: 10px;
+  left: 250px;
+  height: 200px;
+
+  font-size: 16px;
+}
+
+/* CROUSEL */
+
+/* TEDAVİLER */
+#tedaviler {
+  padding: 2% 10%;
+  
+  position: relative;
+}
+.divsecici{
+  padding-top: 20px;
+}
+.divsecici > div {
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  background-color: rgb(240, 233, 223);
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+.divsecici > div:hover {
+  background: #ffb4b4;
+   border: 1px solid #ff0000;
+}
+.img-container{
+  width: 100%; /* Resmin genişliğini konteynere sığacak şekilde ayarlar */
+  height: 100%; /* Resmin yüksekliğini konteynere sığacak şekilde ayarlar */
+  object-fit: cover; /* Resmi konteyner boyutlarına göre ölçekler */
+  width: 100px; /* Resim konteynerinin genişliğini istediğiniz değere ayarlayabilirsiniz */
+  height: 100px; /* Resim konteynerinin yüksekliğini istediğiniz değere ayarlayabilirsiniz */
+  border-radius: 50%; /* Daire şeklinde kesmeyi sağlayan özellik */
+  overflow: hidden; /* Resim dışında kalan kısımları gizler */
+  
+  
+}
+.resimsol{
+  float: left;
+  padding-right: 10px;
+}
+.resimsag{
+  float: right;
+  padding-left: 10px;
+}
+
+.solaYasla{
+  text-align: left;
+}
+.sagaYasla{
+  text-align: right;
+}
+@media (max-width: 1256px) {
+  .solaYasla{
+    text-align: center;
+  }
+  .sagaYasla{
+    text-align: center;
+  }
+}
+
+/* TEDAVİLER SON */
+
+/* 3lü bilgi */
+
+#features {
+  padding: 0% 7%;
+  
+  position: relative;
+}
+.features-box {
+  padding: 5%;
+}
+.h3features {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.pfeaturesp {
+  color: #8f8f8f;
+}
+.fa-4x {
+  color: #ef8172;
+}
+.fa-4x:hover {
+  color: #ff4c68;
+}
+.fa-location-dot {
+  margin-right: 8px;
+}
+.ikonsagdan {
+  margin-right: 5px;
+}
+.flex-container {
+  display: flex;
+}
+.float-child {
+  flex: 1;
+}
+.float-child:first-child {
+  margin-right: 20px;
+}
+.sosyallogolar {
+  padding: 8px;
+}
+/* 3lü bilgi */
+
+/* FOOTER */
+.footerfoto {
+  padding: 15px;
+}
+#footer {
+  background-color: #fff;
+
+  color: white;
+  padding: 3%;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.minisembol {
+  padding: 2%;
+  margin-left: 10px;
+  color: black;
+}
+.minisembol:hover {
+  color: #ff4c68;
+}
+/* FOOTER */
+
+
+/* WP BUTTON */
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 15px;
+  right: 15px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+
+  font-size: 40px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.my-float {
+  margin-top: 8px;
+}
+.randevu {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+}
+#press {
+  background-color: aqua;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* WP BUTTON */
